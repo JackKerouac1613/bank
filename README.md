@@ -6,11 +6,19 @@
 
 ![App screenshot](./readme_src/screenshot-home.jpeg)
 
+<br>
+
 ![App screenshot](./readme_src/screenshot-accounts.jpeg)
+
+<br>
 
 ![App screenshot](./readme_src/screenshot-ATMs.jpeg)
 
+<br>
+
 ![App screenshot](./readme_src/screenshot-currency.jpeg)
+
+<br>
 
 ![App screenshot](./readme_src/screenshot-account-more.jpeg)
 
