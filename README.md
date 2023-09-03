@@ -4,6 +4,10 @@
 
 <br>
 
+<h2 align='center'>Screenshots application</h2>
+
+<br>
+
 ![App screenshot](./readme_src/screenshot-home.jpeg)
 
 <br>
