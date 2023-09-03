@@ -2,6 +2,8 @@
 
 <div align="center">Cryptocurrency bank web application</div>
 
+<br>
+
 ![App screenshot](./readme_src/screenshot-home.jpeg)
 
 ![App screenshot](./readme_src/screenshot-accounts.jpeg)
@@ -18,6 +20,20 @@ This startup is an innovative project designed to bring together traditional ban
 
 It will be the first bank in the market that openly and freely allow users to exchange and dispose of
 cryptocurrencies on a par with other traditional currencies.
+
+## Used technologies and libraries
+
+- Webpack
+- JavaScript
+- HTML
+- CSS
+- Navigo
+- Chart.js
+- Redom
+- Cypress
+- ESLint
+- Ymaps
+- Prettier
 
 ## Features
 
