@@ -1,0 +1,146 @@
+.account-section {
+    margin-top: 44px;
+}
+
+.top-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.btn_create {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.account-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.account-item {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 400px;
+    height: 156px;
+    padding: 22px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    margin-bottom: 50px;
+    transition: box-shadow .3s ease-in-out;
+}
+
+.account-item:not(:nth-child(3n)) {
+    margin-right: 70px;
+}
+
+.account-item:hover {
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+.item-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-title {
+    margin-right: 35px;
+}
+
+.account-number {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 9px;
+}
+
+.account-balance {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 31px;
+}
+
+.account-transaction {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.account-content {
+    display: flex;
+}
+
+.icon-cross {
+    width: 16px;
+    height: 16px;
+    margin-right: 14px;
+}
+
+.dropdown {
+    position: relative;
+    width: 300px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 16px;
+    color: #374151;
+    border: 1px solid #116ACC;
+    border-radius: 7px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.dropdown-wrapper {
+    display: none;
+    flex-direction: column;
+    padding: 10px 0;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    box-shadow: (0px 5px 20px rgba(0, 0, 0, 0.25));
+}
+
+.dropdown-item {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 16px;
+    transition: background-color .3s ease-in-out;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #A0C3FF;
+}
+
+.icon-vector {
+    display: inline-flex;
+    transition: transform .3s ease-in-out;
+}
+
+.show {
+    display: flex;
+}
+
+.icon-vector.open {
+    transform: rotateX(180deg);
+}

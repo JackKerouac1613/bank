@@ -1,0 +1,169 @@
+.check-content-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.check-btn {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.icon-arrow {
+    height: 18px;
+    margin-right: 14px;
+}
+
+.check-content-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.balance-wrapper {
+    display: flex;
+}
+
+.check-number {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.check-balance-title {
+    margin-right: 50px;
+}
+
+.check-balance {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.check-middle-wrapper {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.check-transfer-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 50px;
+    border-radius: 50px;
+    background-color: #F3F4F6;
+    margin-right: 50px;
+}
+
+.check-transfer-title {
+    margin-bottom: 25px;
+}
+
+.transfer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.recipient-label {
+    margin-bottom: 25px;
+}
+
+.amount-label {
+    margin-bottom: 25px;
+}
+
+.check-placeholder {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 18px;
+}
+
+.icon-mail {
+    height: 16px;
+    margin-right: 12px;
+}
+
+.btn_submit {
+    margin-right: 136px;
+}
+
+.check-dynamics-wrapper {
+    padding: 18px 50px 20px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    background-color: white;
+}
+
+.chart-wrapper {
+    width: 607px;
+    height: 253px;
+}
+
+.check-bottom-wrapper {
+    padding: 25px 50px 66px;
+    background-color: #F3F4F6;
+    border-radius: 56px;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.history-title {
+    margin-bottom: 25px;
+}
+
+.thead {
+    background-color: #116ACC;
+}
+
+.table-th {
+    width: 400px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: start;
+    padding: 20px 0;
+    color: white;
+}
+
+.first_th {
+    border-radius: 15px 0 0 15px;
+}
+
+.last_th {
+    border-radius: 0 15px 15px 0;
+}
+
+.table-tr {
+    border-bottom: 2px solid rgba(0, 82, 255, 0.1);
+}
+
+.table-td {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 21px 0 26px 0;
+}
+
+.green {
+    color: #76CA66;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.table_col-first {
+    padding-left: 50px;
+}
+
+.sum_th {
+    width: 200px;
+}

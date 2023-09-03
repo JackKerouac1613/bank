@@ -1,0 +1,16 @@
+.map-title {
+    margin-bottom: 56px;
+}
+
+#map-container {
+    height: 728px;
+}
+
+
+.green {
+    color: #76CA66;
+}
+
+.red {
+    color: #FD4E5D;
+}

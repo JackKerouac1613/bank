@@ -1,0 +1,199 @@
+.currency-title {
+    margin-bottom: 54px;
+}
+
+.currency-wrapper {
+    display: flex;
+}
+
+.wrapper-left {
+    margin-right: 49px;
+}
+
+.currency-block {
+    width: 588px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    padding: 50px;
+    margin-bottom: 44px;
+}
+
+.title-currency {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+
+.currency-item {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+.item-amount {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.currency-item:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.item-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.item-border {
+    width: 100%;
+    margin: 0 10px;
+    border-bottom: 1px dashed #000000;
+}
+
+.item-amount {
+    margin-right: 15px;
+}
+
+.exchange-block {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    padding: 50px;
+}
+
+.title-exchange {
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.inp-exchange {
+    min-width: 44px;
+}
+
+.wrapper-right {
+    width: 100%;
+}
+
+.course-block {
+    height: 100%;
+    padding: 50px;
+    background-color: #E5E5E5;
+    border-radius: 50px;
+}
+
+.course-title {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+
+.currency-item.fall .item-border{
+    border-color: red;
+}
+
+.icone{
+    fill: #76CA66;
+}
+
+.exchange-content {
+    display: flex;
+}
+
+.exchange-content-left {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 25px;
+}
+
+.currency-text {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-right: 20px;
+}
+
+.currency-label {
+    display: flex;
+    align-items: center;
+}
+
+.currency-label:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.sum-text {
+    margin-right: 8px;
+}
+
+.currency-dropdown {
+    position: relative;
+    min-width: 134px;
+}
+
+.from-dropdown {
+    margin-right: 20px;
+}
+
+.currency-item.fall .icone{
+    fill: red;
+    transform: rotate(180deg);
+}
+
+.currency-icon {
+    display: inline-flex;
+    transition: transform .3s ease-in-out;
+}
+
+.currency-dropdown-btn {
+    padding: 10px 15px;
+    border: 1px solid rgba(156, 163, 175, 1);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.currency-dropdown-wrapper {
+    position: absolute;
+    display: none;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    background-color: white;
+}
+
+.currency-dropdown-wrapper.open {
+    display: block;
+}
+
+.currency-icon.open {
+    transform: rotate(180deg);
+}
+
+.currency-dropdown-item {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    transition: background-color .3s ease-in-out;
+    padding: 5px 15px;
+}
+
+.currency-dropdown-item:hover {
+    background-color: #A0C3FF;
+}
+
+.exchange-btn {
+    padding: 0 13px;
+}

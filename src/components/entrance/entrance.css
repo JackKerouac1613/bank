@@ -1,0 +1,57 @@
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+}
+
+.entrance-window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px;
+    background: #F3F4F6;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+
+.entrance-title {
+    margin-bottom: 35px;
+}
+
+.entrance-form {
+    display: flex;
+    min-width: 379px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.entrance-label {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.label_login {
+    margin-left: 10px;
+}
+
+.entrance-placeholder {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 18px;
+}
+
+.entrance-input {
+    width: 80%;
+}
+
+.entrance-btn {
+    margin-left: 75px;
+    padding: 14px 21px;
+    border-radius: 7px;
+    border: none;
+    color: #ffffff;
+}

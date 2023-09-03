@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu:wght@400;500&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%
+}
+
+*,
+*::before,
+*::after {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+:root {
+    --color-blue: #116ACC;
+}
+
+
+.title {
+    margin: 0;
+}
+
+.title_main {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.title_low {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.notification {
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.error-wrapper {
+    position: fixed;
+    left: 38%;
+    top: 0;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.inp {
+    min-width: 300px;
+    padding: 9px 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 7px;
+    border: 1px solid #9CA3AF;
+}
+
+.btn {
+    font-family: 'Ubuntu';
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 7px;
+    padding: 16px 24px;
+    border: none;
+    color: #ffffff;
+    background-color: var(--color-blue);
+    transition: background-color .3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #255181;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.item {
+    text-decoration: none;
+}
+
+.main {
+    position: relative;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 50px;
+}
