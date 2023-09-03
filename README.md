@@ -1,11 +1,15 @@
-<h1 align="center">Bank</h1>
+<h1 align="center">Bank Single Page Application</h1>
 
 <div align="center">Cryptocurrency bank web application</div>
 
 ![App screenshot](./readme_src/screenshot-home.jpeg)
+
 ![App screenshot](./readme_src/screenshot-accounts.jpeg)
+
 ![App screenshot](./readme_src/screenshot-ATMs.jpeg)
+
 ![App screenshot](./readme_src/screenshot-currency.jpeg)
+
 ![App screenshot](./readme_src/screenshot-account-more.jpeg)
 
 ## What is this web application for? 🤷‍♀️
